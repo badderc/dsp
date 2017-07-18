@@ -19,7 +19,26 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+1. pwd - print working directory
+2. mkdir - create a directory
+3. rm -r - removes/deletes an entire directory and all sub-directories
+4. touch - creates a file in current directory
+5. rm - deletes a file
+6. mv filename1 filename2 - changes file name from 1 to 2 
+6.5. mv filename directoryname - moves file into directoryname
+7. ls -a - will list all files, including hidden ones, in current directory
+8. cp filename newdirectoryname - copies a file into desired directory
+9. echo stdin > desiredfile - redirects the standard output to a new file
+10. cat file - outputs contents of a file to the terminal
+10.1. cat file1 > file2 - places contents of file1 into file2
+10.2. cat file1 >> file2 - appends file1 to file2
+10.3. cat < file1 - redirects standard input to a command
+11. '|' - the pipe redirects standard output of the command on the left to another command on the right
+12. sort - sorts lines of file alphabetically
+13. uniq - filters out duplicate, adjacent lines of text
+14. grep - "global regular expression print" - search for a text pattern/output it
+15. sed - searches for a text pattern, modifies it, and outputs it
 
 ---
 

@@ -53,7 +53,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+1. 'ls' = list all files in the current directory
+2. 'ls -a' = lists all files includig hidden files (beginning with .)
+3. 'ls -l' = lists files in long form (permissions, links, owner, group, size, time, name)
+4. 'ls -lh' = lists files in long form with size in easy to understand units
+5. 'ls -lah' = lists all files including hidden files in long form with size units
+6. 'ls -t' = sorts files by last time modified 
+7. 'ls -Glp' = lists files color-coded by type and with a '/' after the name if the file is a directory
 
 ---
 

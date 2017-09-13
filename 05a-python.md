@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Both lists and tuples are sequences of items, but lists are mutable and tuples are immutable. Because lists can be changed after assignment, they cannot be used are keys in dictionaries. Tuples, however, can be used as keys because they are constant and cannot be changed after they are assigned. Both can be assigned as values in dictionaries though.
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Sets are sequences like lists, but they contain only unique items and their ordering is arbitrary. Sets are useful for checking for the existance of an item (check x in set). Sets would be faster for finding an element because each item is unique. Lists are more useful for iterating through a sequence.
 
 ---
 
@@ -28,7 +28,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python's 'lamdba' function is an anonymous function that is used when you need to perform a relatively simple operation for a short period of time and don't really need to define a named function. They are often used as arguments in other built-in functions to quickly evaluate and return values within the larger function. In 'sorted', 'lambda' can be part of the 'key' argument: a = [[1,2], [4,5], [6,0]] and then to sort this list of lists by the second item in each list: b = sorted(a, key=lambda x: x[1]). 
 
 ---
 

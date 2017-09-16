@@ -36,7 +36,33 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are an easy way to make patterned lists without using a for loop because the expression can be simply stated inside the brackets. They can be used in place of map and filter operations. Set comprehensions are functionally very similar to list comprehensions but they eliminate the occasional issue of repeated values and are constructed with curly brackets instead of square. Dictionary comprehensions act similarly, but the expression applies to the values and depends on the keys.
+
+```python
+# list comp
+items = [1, 2, 3, 4, 5]
+i_sqrd = [x**2 for x in items]
+>> [1, 4, 9, 16, 25]
+# same list using map (function, sequence)
+i_sqrd = map(lambda x: x**2, items)
+>> [1, 4, 9, 16, 25]
+
+# list comp
+letters = ['a', 'B', 'c', 'D', 'e', 'F']
+l_up = [up for up in letters if up.isupper()]
+>> ['B', 'D', 'F']
+# same list using filter (function, sequence)
+l_up = filter(lambda up: up.isupper(), letters)
+>> ['B', 'D', 'F']
+
+# set comp
+items = [2, 4, 6, 8]
+s = set(x/2 for x in items)
+>> set([2, 3, 1, 4])
+# dictionary comp
+words = ['hi', 'hi', 'hello', 'hey', 'hello', 'sup', 'howdy', 'hello']
+d = dict((k, words.count(k)) for k in words)
+>> {'howdy': 1, 'hi': 2, 'hello': 3, 'sup': 1, 'hey': 1}
 
 ---
 

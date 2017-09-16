@@ -6,14 +6,14 @@ pmf = thinkstats2.Pmf(ran)
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='random num', ylabel='PMF')
 ```
-![alt text]()
+![alt text](https://github.com/badderc/dsp/blob/master/statistics/stat_ex4_2_plot1.png)
 
 ```python
 cdf = thinkstats2.Cdf(ran)
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='random num', ylabel='CDF')
 ```
-![alt text]()
+![alt text](https://github.com/badderc/dsp/blob/master/statistics/stat_ex4_2_plot2.png)
 
 ```
 The random function is random because each number was selected with equal probability

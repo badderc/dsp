@@ -63,6 +63,7 @@ s = set(x/2 for x in items)
 words = ['hi', 'hi', 'hello', 'hey', 'hello', 'sup', 'howdy', 'hello']
 d = dict((k, words.count(k)) for k in words)
 >> {'howdy': 1, 'hi': 2, 'hello': 3, 'sup': 1, 'hey': 1}
+```
 
 ---
 

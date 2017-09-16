@@ -19,3 +19,4 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Children per HH', ylabel='PMF')
 ```
+![alt text](https://github.com/badderc/dsp/blob/master/statistics/stat_ex3_1_plot.png)
